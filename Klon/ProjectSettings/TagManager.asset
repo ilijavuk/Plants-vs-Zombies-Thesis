@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Plant
+  - SunceMalo
+  - Zombie
+  - Projectile
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3270886725
+    locked: 0
+  - name: Plants
+    uniqueID: 2652414607
+    locked: 0
+  - name: Foreground
+    uniqueID: 1637920571
+    locked: 0
+  - name: Projektil
+    uniqueID: 1994667777
+    locked: 0
+  - name: Ground
+    uniqueID: 2194307053
+    locked: 0
