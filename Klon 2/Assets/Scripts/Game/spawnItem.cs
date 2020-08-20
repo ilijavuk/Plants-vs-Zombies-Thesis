@@ -63,7 +63,7 @@ public class spawnItem : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
             {
                 if (item.collider.gameObject.tag == "Ground")
                     foundEmptySpot = true;
-                else if (item.collider.gameObject.tag == "Plant")
+                else if ((item.collider.gameObject.tag == "Plant" || item.collider.gameObject.tag == "InvisPlant") && !(item.collider is BoxCollider2D))
                     plantCount++;
             }
             Debug.Log($"Plant count: {plantCount}");
@@ -79,6 +79,6 @@ public class spawnItem : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
                 Collider2D col2 = go.GetComponent<BoxCollider2D>();
                 col2.enabled = true;
             }
-        }       
+        }
     }
 }

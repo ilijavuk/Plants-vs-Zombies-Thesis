@@ -17,7 +17,7 @@ public class zombie_damage : MonoBehaviour
         animacija.SetBool("grize", false);
         timer = cdZaUdaranje;
     }
-    void Udari()
+    void DoDamage()
     {
         timer -= Time.deltaTime;
         if (timer <= 0)
@@ -33,8 +33,7 @@ public class zombie_damage : MonoBehaviour
             animacija.SetBool("grize", true);
             udaram = true;
             go = other.gameObject;
-            Debug.Log(other.gameObject.name);
-            InvokeRepeating("Udari", 0, .01667f);
+            InvokeRepeating("DoDamage", 0, .01667f);
         }
     }
     void OnCollisionExit2D(Collision2D other)

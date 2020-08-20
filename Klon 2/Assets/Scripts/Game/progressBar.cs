@@ -4,19 +4,17 @@ using UnityEngine;
 using UnityEngine.UI;
 public class progressBar : MonoBehaviour
 {
-    public Slider bar;
-    public int brojZombija;
+    public TMPro.TextMeshProUGUI m_text_current;
+    public TMPro.TextMeshProUGUI m_text_number;
     private float var;
     
     private void Start()
     {
-        Counter.brojZombija = brojZombija;
-        Counter.value = 0;
-        bar = GetComponent<Slider>();   
-        var = 1.0f/brojZombija;
+
+        m_text_number.text = "/"+Levels.spawns[Counter.currentLevel-1, 0].ToString();
     }
     void Update()
     {
-        bar.value = Counter.value*var;
+        m_text_current.text = Counter.value.ToString();
     }
 }

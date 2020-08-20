@@ -9,7 +9,7 @@ public class Brzina : MonoBehaviour
 
 	void Start()
 	{
-		pozicijay = Random.Range(0, 4);	
+		pozicijay = Random.Range(-2, 2);	
 		this.gameObject.GetComponent<Rigidbody2D>().velocity = varijabla;
 	}
 	
