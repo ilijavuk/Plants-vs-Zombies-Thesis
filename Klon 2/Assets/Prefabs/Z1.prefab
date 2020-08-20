@@ -207,6 +207,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e509e1591c36884b964f94ed31ff01c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animacija: {fileID: 95123366898026748}
+  animation: {fileID: 95123366898026748}
   damage: 100
-  cdZaUdaranje: 1
+  hittingCooldown: 1.6

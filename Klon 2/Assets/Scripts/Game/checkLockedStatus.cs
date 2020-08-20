@@ -18,6 +18,5 @@ public class checkLockedStatus : MonoBehaviour
                 sprite.sortingLayerName = "Ground";
             }
         }
-        Debug.Log(Counter.currentLevel-1);
     }
 }

@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 2735739026132793661}
   - component: {fileID: -5042751927585154282}
   - component: {fileID: 8324025799054487988}
+  - component: {fileID: 4292546660043582464}
   m_Layer: 8
   m_Name: Cherry_prefab
   m_TagString: InvisPlant
@@ -4966,7 +4967,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c3222c99eef9843bff9c8d5d90d785, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countdown: 1.5
+  countdown: 3
   radius: 3
   damage: 1800
-  em: {fileID: -5042751927585154282}
+  animator: {fileID: 4292546660043582464}
+--- !u!95 &4292546660043582464
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7996439631175338786}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 36def4b0c63adc948847574b89a1e51d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
