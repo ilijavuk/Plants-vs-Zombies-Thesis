@@ -17,18 +17,19 @@ public class zombie : MonoBehaviour
 	{
 		this.gameObject.GetComponent<Rigidbody2D>().velocity = varijabla;
 	}
-	void OnTriggerEnter2D (Collider2D other){
-		if(other.gameObject.tag == "Projectile"){
-			Destroy(other.gameObject);
-            HP -= 20;
 
-			// Destroy if died
-			if (HP <= 0){
-				StartCoroutine(unisti());
-			}	
-		}
-	}
-	IEnumerator unisti()
+    public void TakeDamage (int damage)
+    {
+        HP -= damage;
+
+        // Destroy if died
+        if (HP <= 0)
+        {
+            StartCoroutine(destroy());
+        }
+
+    }
+	IEnumerator destroy()
 	{
 		transform.position = new Vector3(11,0,0);
 		yield return 0; // skippaj jedan frame

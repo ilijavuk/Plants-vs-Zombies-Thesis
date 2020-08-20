@@ -20,9 +20,10 @@ public class DefeatAndVictory : MonoBehaviour
 
     private void Update()
     {
-        if(Counter.value >= Counter.brojZombija)
+        if(Counter.value >= Levels.spawns[Counter.currentLevel-1, 0])
         {
-            PlayerPrefs.SetInt("savedLevel", level+1);
+            if (PlayerPrefs.GetInt("savedLevel") >= Counter.currentLevel) 
+                PlayerPrefs.SetInt("savedLevel", level+1);
             go.SetActive(true);
         }
     }

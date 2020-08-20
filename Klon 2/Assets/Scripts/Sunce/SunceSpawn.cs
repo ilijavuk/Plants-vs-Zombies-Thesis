@@ -13,7 +13,7 @@ public class SunceSpawn : MonoBehaviour
     }
    
     void Spawn() {
-		Vector3 pozicijaSpawn = new Vector3(Random.Range(0, 9), Random.Range(6, 6), 0);
+		Vector3 pozicijaSpawn = new Vector3(Random.Range(0, 8), 3, 0);
         Instantiate(prefab, pozicijaSpawn, Quaternion.identity);
     }
 }

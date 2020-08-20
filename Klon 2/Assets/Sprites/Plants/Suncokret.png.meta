@@ -41,6 +41,18 @@ TextureImporter:
   - first:
       213: 21300024
     second: Suncokret_12
+  - first:
+      213: 6742354661862069665
+    second: Suncokret_0
+  - first:
+      213: -5377055134156515436
+    second: Suncokret_1
+  - first:
+      213: -5664604252956851492
+    second: Suncokret_2
+  - first:
+      213: 5492173900637827958
+    second: Suncokret_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -62,6 +74,7 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -96,6 +109,7 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
@@ -152,8 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc472c9035dcd044290bc7b09b89e1fe
-      internalID: 21300000
+      spriteID: 1a5dcf9a7d7a19d50800000000000000
+      internalID: 6742354661862069665
       vertices: []
       indices: 
       edges: []
@@ -173,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ada9647cbab54814b98f8a10ab20e2ae
-      internalID: 21300002
+      spriteID: 49719e628dcd065b0800000000000000
+      internalID: -5377055134156515436
       vertices: []
       indices: 
       edges: []
@@ -194,8 +208,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8fa5fc707763cd40b0fc45bdff777b9
-      internalID: 21300004
+      spriteID: cd2075db1784361b0800000000000000
+      internalID: -5664604252956851492
       vertices: []
       indices: 
       edges: []
@@ -215,197 +229,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ef73e7f5ed95214aa2603f9ecec6395
-      internalID: 21300006
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Suncokret_4
-      rect:
-        serializedVersion: 2
-        x: 1600
-        y: 0
-        width: 400
-        height: 400
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7df92fd6d87a29645b6f2b82e1d4669c
-      internalID: 21300008
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Suncokret_5
-      rect:
-        serializedVersion: 2
-        x: 2000
-        y: 0
-        width: 400
-        height: 400
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 07c52a6c61361be44a9f077d7add614c
-      internalID: 21300010
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Suncokret_6
-      rect:
-        serializedVersion: 2
-        x: 2400
-        y: 0
-        width: 400
-        height: 400
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3a392ef8ee1520c4a83d0c1e1e208847
-      internalID: 21300012
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Suncokret_7
-      rect:
-        serializedVersion: 2
-        x: 2800
-        y: 0
-        width: 400
-        height: 400
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 46926e2fb44dc504ea39db2de7ab819d
-      internalID: 21300014
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Suncokret_8
-      rect:
-        serializedVersion: 2
-        x: 3200
-        y: 0
-        width: 400
-        height: 400
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1714e796c2460ee469cb25e141e25b25
-      internalID: 21300016
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Suncokret_9
-      rect:
-        serializedVersion: 2
-        x: 3600
-        y: 0
-        width: 400
-        height: 400
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d94954e873e367740ba94b3a6d5ac101
-      internalID: 21300018
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Suncokret_10
-      rect:
-        serializedVersion: 2
-        x: 4000
-        y: 0
-        width: 400
-        height: 400
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1cc1c50b106e06647a3f470c148e56e1
-      internalID: 21300020
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Suncokret_11
-      rect:
-        serializedVersion: 2
-        x: 4400
-        y: 0
-        width: 400
-        height: 400
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b32cf7819608b824e9411c3f28dd83a8
-      internalID: 21300022
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Suncokret_12
-      rect:
-        serializedVersion: 2
-        x: 4800
-        y: 0
-        width: 400
-        height: 400
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 72f1c3460f625094cbceeb956523b783
-      internalID: 21300024
+      spriteID: 6737038501f183c40800000000000000
+      internalID: 5492173900637827958
       vertices: []
       indices: 
       edges: []
