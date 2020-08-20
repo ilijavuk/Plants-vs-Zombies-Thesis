@@ -12,9 +12,9 @@ public class ZombiSpawn : MonoBehaviour
     private int numberOfSpawns;
     private int typeOfSpawns;
     void Start() {
-        StartCoroutine(spawn());
         numberOfSpawns = Levels.spawns[Counter.currentLevel - 1, 0];
         typeOfSpawns = Levels.spawns[Counter.currentLevel - 1, 1];
+        StartCoroutine(spawn());
     }
 
     IEnumerator spawn()

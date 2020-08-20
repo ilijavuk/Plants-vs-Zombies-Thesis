@@ -77,7 +77,7 @@ public class spawnItem : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
                 Collider2D col = go.GetComponent<CircleCollider2D>();
                 col.isTrigger = false;
                 Collider2D col2 = go.GetComponent<BoxCollider2D>();
-                col2.enabled = true;
+                if(col2) col2.enabled = true;
             }
         }
     }

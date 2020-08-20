@@ -34,6 +34,10 @@ public class zombie : MonoBehaviour
 		transform.position = new Vector3(11,0,0);
 		yield return 0; // skippaj jedan frame
 		Destroy(gameObject);
-        Counter.value++;
 	}
+
+    private void OnDestroy()
+    {
+        Counter.value++;
+    }
 }

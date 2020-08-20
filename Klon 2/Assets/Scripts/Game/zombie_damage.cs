@@ -4,18 +4,17 @@ using UnityEngine;
 
 public class zombie_damage : MonoBehaviour
 {
-
-    public Animator animacija;
-    private bool udaram = false;
+    public Animator animation;
+    private bool hitting = false;
     public int damage;
-    public float cdZaUdaranje;
+    public float hittingCooldown;
     private float timer;
     private GameObject go;
     
     private void Start()
     {
-        animacija.SetBool("grize", false);
-        timer = cdZaUdaranje;
+        animation.SetBool("biting", false);
+        timer = hittingCooldown;
     }
     void DoDamage()
     {
@@ -23,15 +22,15 @@ public class zombie_damage : MonoBehaviour
         if (timer <= 0)
         {
             go.GetComponent<PlantsHP>().SmanjiHP(damage);
-            timer = cdZaUdaranje;
+            timer = hittingCooldown;
         }
     }
     void OnCollisionStay2D(Collision2D other)
     {
-        if (other.gameObject.tag == "Plant" && !udaram)
+        if (other.gameObject.tag == "Plant" && !hitting)
         {
-            animacija.SetBool("grize", true);
-            udaram = true;
+            animation.SetBool("biting", true);
+            hitting = true;
             go = other.gameObject;
             InvokeRepeating("DoDamage", 0, .01667f);
         }
@@ -40,8 +39,8 @@ public class zombie_damage : MonoBehaviour
     {
         if (other.gameObject.tag == "Plant")
         {
-            udaram = false;
-            animacija.SetBool("grize", false);
+            hitting = false;
+            animation.SetBool("biting", false);
             CancelInvoke();
         }
     }
