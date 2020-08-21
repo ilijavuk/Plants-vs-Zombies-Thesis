@@ -101,6 +101,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\Scripts\Game\spawnItem.cs" />
+    <Compile Include="Assets\Scripts\Game\Shovel.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
@@ -108,7 +109,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\Scripts\Game\Zombie scripts\zombie.cs" />
     <Compile Include="Assets\Scripts\Sunce\SuncokretSpawnaSunce.cs" />
-    <Compile Include="Assets\Scripts\Game\ToggleShovel.cs" />
+    <Compile Include="Assets\Scripts\Game\AudioSettings.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />

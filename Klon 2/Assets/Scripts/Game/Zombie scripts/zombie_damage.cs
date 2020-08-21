@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class zombie_damage : MonoBehaviour
 {
-    public Animator animation;
+    public Animator animator;
     private bool hitting = false;
     public int damage;
     public float hittingCooldown;
@@ -13,7 +13,7 @@ public class zombie_damage : MonoBehaviour
     
     private void Start()
     {
-        animation.SetBool("biting", false);
+        animator.SetBool("biting", false);
         timer = hittingCooldown;
     }
     void DoDamage()
@@ -29,7 +29,7 @@ public class zombie_damage : MonoBehaviour
     {
         if (other.gameObject.tag == "Plant" && !hitting)
         {
-            animation.SetBool("biting", true);
+            animator.SetBool("biting", true);
             hitting = true;
             go = other.gameObject;
             InvokeRepeating("DoDamage", 0, .01667f);
@@ -40,7 +40,7 @@ public class zombie_damage : MonoBehaviour
         if (other.gameObject.tag == "Plant")
         {
             hitting = false;
-            animation.SetBool("biting", false);
+            animator.SetBool("biting", false);
             CancelInvoke();
         }
     }
