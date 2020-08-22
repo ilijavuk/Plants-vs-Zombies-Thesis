@@ -27,7 +27,7 @@ public class zombie_damage : MonoBehaviour
     }
     void OnCollisionStay2D(Collision2D other)
     {
-        if (other.gameObject.tag == "Plant" && !hitting)
+        if (other.collider is CircleCollider2D && other.gameObject.tag == "Plant" && !hitting)
         {
             animator.SetBool("biting", true);
             hitting = true;

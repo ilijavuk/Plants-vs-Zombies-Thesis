@@ -4,31 +4,33 @@ using UnityEngine;
 
 public class Pucpuc : MonoBehaviour
 {
-    public Animator animacija;
+    public Animator anim;
     public GameObject prefab;
 	static Vector3 poz;
-    bool pucam = false;
+    bool shooting = false;
 
-    private void Start()
-    {
-        animacija.SetBool("puca", false);       
-    }
     public void Pucaj()
     {
         poz = new Vector3(transform.position.x + 0.367f, transform.position.y + 0.1728f, 0);
         Instantiate(prefab, poz, Quaternion.identity);
     }
     void OnTriggerStay2D (Collider2D other){
-        if(other.gameObject.tag == "Zombie" && !pucam){
-            pucam = true;
-            animacija.SetBool("puca", true);
+        if(other.gameObject.tag == "Zombie" && !shooting)
+        {
+            shooting = true;
+            anim.SetBool("shooting", true);
         }
     }
     void OnTriggerExit2D (Collider2D other){
         if (other.gameObject.tag == "Zombie"){
-            animacija.SetBool("puca", false);
-            pucam = false;
+            anim.SetBool("shooting", false);
+            shooting = false;
         }
-	}
+    }
+    void SetStart(bool value)
+    {
+        gameObject.GetComponent<BoxCollider2D>().enabled = true;
+        gameObject.GetComponent<Animator>().Play("Graso_Idle");
+    }
 }
 

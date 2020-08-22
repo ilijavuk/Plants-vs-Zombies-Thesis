@@ -43,5 +43,6 @@ public class PlantsHP : MonoBehaviour
     {
         if (shovel.toggledOn)
             Destroy(gameObject);
+
     }
 }

@@ -1,18 +1,34 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class AudioSettings : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [Serializable]
+    public struct AudioSources
+    {
+        public AudioSource audioSource;
+        public string group;
+    }
+
+    public AudioSources[] audioSources;
+
     void Start()
     {
-        AudioSource audioSource = gameObject.GetComponent<AudioSource>();
         float musicVolume = PlayerPrefs.GetFloat("music");
-        if (audioSource)
-            audioSource.volume = musicVolume;
-        else if (gameObject.name == "Slider")
+        float sfxVolume = PlayerPrefs.GetFloat("sfx");
+        foreach(var audio in audioSources)
+        {
+            switch (audio.group)
+            {
+                case "music": audio.audioSource.volume = musicVolume;  break;
+                case "sfx": audio.audioSource.volume = sfxVolume; break;
+            }
+            audio.audioSource.volume = musicVolume;
+        }
+        if (gameObject.name == "Slider")
         {
             gameObject.GetComponent<Slider>().value = musicVolume;
         }

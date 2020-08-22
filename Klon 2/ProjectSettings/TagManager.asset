@@ -11,6 +11,7 @@ TagManager:
   - PlayMenuButton
   - Ground
   - InvisPlant
+  - TakenGround
   layers:
   - Default
   - TransparentFX
