@@ -167,7 +167,7 @@ GameObject:
   - component: {fileID: 74373014}
   - component: {fileID: 74373013}
   m_Layer: 5
-  m_Name: Text
+  m_Name: MoneyAmount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6336,12 +6336,12 @@ PrefabInstance:
     - target: {fileID: 8165216275945372954, guid: c6cb85c97bcdb8e48836a16d22434ab8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.91
+      value: -6.285
       objectReference: {fileID: 0}
     - target: {fileID: 8165216275945372954, guid: c6cb85c97bcdb8e48836a16d22434ab8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.21
+      value: 1.455
       objectReference: {fileID: 0}
     - target: {fileID: 8165216275945372954, guid: c6cb85c97bcdb8e48836a16d22434ab8,
         type: 3}
