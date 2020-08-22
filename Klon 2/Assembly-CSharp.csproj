@@ -61,6 +61,7 @@
      <Compile Include="Assets\Scripts\Projektil\ProjektilVeloc.cs" />
      <Compile Include="Assets\Scripts\Game\Levels.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
+     <Compile Include="Assets\Scripts\Game\Plant scripts\PotatoMine.cs" />
      <Compile Include="Assets\Scripts\Game\progressBar.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
@@ -76,6 +77,7 @@
      <Compile Include="Assets\Scripts\Sunce\SunSpawn.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+     <Compile Include="Assets\Scripts\Game\Plant scripts\Explosion.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
      <Compile Include="Assets\Scripts\Game\Zombie scripts\ZombiSpawn.cs" />
      <Compile Include="Assets\Scripts\Game\Plant scripts\Wallnut_Script.cs" />
@@ -113,7 +115,6 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
      <Compile Include="Assets\Scripts\Game\Zombie scripts\zombie.cs" />
      <Compile Include="Assets\Scripts\Sunce\SunflowerSpawningSuns.cs" />
-     <Compile Include="Assets\PotatoMine.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />

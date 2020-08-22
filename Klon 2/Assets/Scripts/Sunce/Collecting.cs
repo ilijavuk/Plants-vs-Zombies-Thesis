@@ -4,23 +4,21 @@ using UnityEngine;
 
 public class Collecting : MonoBehaviour
 {
-	public static int money = 100;
-    public ParticleSystem em;
+	public static int money = 50;
+    public ParticleSystem popParticleAnim;
     public AudioSource collectingSound;
-    private bool particlePlayed = false;
+    private bool collected = false;
     
     void Update()
     {
-        if ( ( particlePlayed && em && !em.isPlaying ) || !em)
+        if (collected)
         {
-            float step = 8 * Time.deltaTime; // calculate distance to move
-            transform.position = Vector3.MoveTowards(transform.position, new Vector2(-6f, 3f), step);
+            float step = 8 * Time.deltaTime; 
+            transform.position = Vector3.MoveTowards(transform.position, new Vector2(-5.250315f, 3.1f), step);
 
-            // Check if the position of the sun and target are approximately equal.
-            if (Vector3.Distance(transform.position, new Vector2(-6f, 3f)) < 0.001f)
+            if (Vector3.Distance(transform.position, new Vector2(-5.250315f, 3.1f)) < 0.001f)
             {
                 money += 50;
-                // Destroy the gameobject.
                 Destroy(gameObject);
             }
         }
@@ -28,17 +26,17 @@ public class Collecting : MonoBehaviour
     
 	void OnMouseDown(){
 
-        if (em && em.isPlaying)
-            em.Stop();
+        if (popParticleAnim && popParticleAnim.isPlaying)
+            popParticleAnim.Stop();
 
-        if (em)
+        if (popParticleAnim)
         {
             collectingSound.Play();
-            var main = em.main;
+            var main = popParticleAnim.main;
             main.simulationSpeed = 4;
-            em.Play();
-            particlePlayed = true;
+            popParticleAnim.Play();
         }
-	}
+        collected = true;
+    }
 
 }

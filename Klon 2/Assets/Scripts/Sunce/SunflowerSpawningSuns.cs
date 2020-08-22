@@ -12,7 +12,7 @@ public class SunflowerSpawningSuns : MonoBehaviour
 		posX = transform.position.x;
 		posY = transform.position.y;
         GameObject go = Instantiate(prefab, new Vector3(posX + 0.25f, posY + 0.25f, 0), Quaternion.identity);
-        go.GetComponent<SpriteRenderer>().transform.localScale = new Vector2(0.75f, 0.75f);
+        go.GetComponent<SpriteRenderer>().transform.localScale = new Vector3(0.75f, 0.75f, 0.75f);
         go.GetComponent<Speed>().enabled = false;
     }
     void SetStart(bool value)

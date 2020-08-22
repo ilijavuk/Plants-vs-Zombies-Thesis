@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class spawnItem : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
@@ -11,6 +12,25 @@ public class spawnItem : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 	private GameObject go;
     private bool clickFlag;
 
+    //uzimanje
+    public void OnPointerDown(PointerEventData eventData)
+    {
+        if (isBeingHeld == true)
+        {
+            Destroy(go);
+            isBeingHeld = false;
+        }
+        else
+        {
+            clickFlag = true;
+            TakeIt();
+        }
+    }
+    public void OnPointerUp(PointerEventData eventData)
+    {
+        clickFlag = false;
+    }
+
     Vector3 MousePos()
     {
         Vector3 mousePos;
@@ -19,6 +39,12 @@ public class spawnItem : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         mousePos = Camera.main.ScreenToWorldPoint(mousePos);
         return mousePos;
     }
+
+    void Start()
+    {
+        transform.GetChild(0).GetComponent<Text>().text = price.ToString();
+    }
+
 	void Update(){
         if (UnityEngine.Input.GetMouseButton(0))
         {
@@ -30,24 +56,7 @@ public class spawnItem : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
             go.transform.localPosition = new Vector3(mousePos.x, mousePos.y, 0);
 		}
 	}
-	
-    //uzimanje
-	public void OnPointerDown(PointerEventData eventData){
-        if (isBeingHeld == true)
-        {
-            Destroy(go);
-            isBeingHeld = false;
-        }
-        else
-        {
-            clickFlag = true;
-            TakeIt();
-        }
-	}
-    public void OnPointerUp(PointerEventData eventData)
-    {
-        clickFlag = false;
-    }
+
     private void TakeIt()
     {
         Vector3 mousePos = MousePos();
@@ -67,17 +76,18 @@ public class spawnItem : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         RaycastHit2D[] hits = Physics2D.RaycastAll(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
         if (hits.Length != 0 && hits[0].collider != null)
         {
-            int plantCount = -1;
+            int plantCount = 0;
             bool foundEmptySpot = false;
 
             foreach (var item in hits)
             {
                 if (item.collider.gameObject.tag == "Ground")
                     foundEmptySpot = true;
-                else if ((item.collider.gameObject.tag == "Plant" || item.collider.gameObject.tag == "InvisPlant") && !(item.collider is BoxCollider2D))
+                else if ((item.collider.gameObject.tag == "TakenGround"))
                     plantCount++;
             }
-            if(foundEmptySpot && plantCount == 0)
+            Debug.Log(plantCount);
+            if(foundEmptySpot && plantCount == 1)
             {
                 Vector3 mousePos = MousePos();
                 Collecting.money -= price;
@@ -86,8 +96,6 @@ public class spawnItem : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
                 go.transform.localPosition = new Vector3(Mathf.Round(mousePos.x), Mathf.Round(mousePos.y), 0);
                 Collider2D col = go.GetComponent<CircleCollider2D>();
                 col.isTrigger = false;
-                Collider2D col2 = go.GetComponent<BoxCollider2D>();
-                if(col2) col2.enabled = true;
                 go.SendMessage("SetStart", true);
             }
         }
