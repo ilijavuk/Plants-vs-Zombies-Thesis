@@ -51,6 +51,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -138,12 +139,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1968447765253055138}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ebad67cf549844d4da4d97e63de3e792, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 2904086863745720620, guid: aa15de856944ba440ab3be23877cb461, type: 3}
+  prefab: {fileID: 347078539392313047, guid: bae8de94aeededa42983a42187c6974b, type: 3}
 --- !u!58 &58397195643568042
 CircleCollider2D:
   m_ObjectHideFlags: 0

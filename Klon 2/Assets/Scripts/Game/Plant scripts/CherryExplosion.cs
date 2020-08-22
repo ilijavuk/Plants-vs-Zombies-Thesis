@@ -8,12 +8,7 @@ public class CherryExplosion : MonoBehaviour
     public float radius;
     public int damage;
     public Animator animator;
-    // Start is called before the first frame update
-    void Start()
-    {
-        Invoke("StartAnimation", countdown);
-    }
-
+    
     void StartAnimation()
     {
         animator.SetBool("exploding", true);
@@ -33,6 +28,11 @@ public class CherryExplosion : MonoBehaviour
     private void Destroy()
     {
         Destroy(gameObject);
+    }
+
+    void SetStart(bool value)
+    {
+        Invoke("StartAnimation", countdown);
     }
 }
 

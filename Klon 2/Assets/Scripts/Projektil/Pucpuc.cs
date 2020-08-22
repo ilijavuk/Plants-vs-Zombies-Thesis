@@ -9,10 +9,6 @@ public class Pucpuc : MonoBehaviour
 	static Vector3 poz;
     bool pucam = false;
 
-    private void Start()
-    {
-        animacija.SetBool("puca", false);       
-    }
     public void Pucaj()
     {
         poz = new Vector3(transform.position.x + 0.367f, transform.position.y + 0.1728f, 0);
@@ -29,6 +25,10 @@ public class Pucpuc : MonoBehaviour
             animacija.SetBool("puca", false);
             pucam = false;
         }
-	}
+    }
+    void SetStart(bool value)
+    {
+        gameObject.GetComponent<Animator>().Play("Graso_Idle");
+    }
 }
 

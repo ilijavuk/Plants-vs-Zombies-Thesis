@@ -5,7 +5,7 @@ using UnityEngine.EventSystems;
 
 public class spawnItem : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
-    public int cijena;
+    public int price;
 	public GameObject prefab;
     private bool isBeingHeld = false;
 	private GameObject go;
@@ -33,8 +33,16 @@ public class spawnItem : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 	
     //uzimanje
 	public void OnPointerDown(PointerEventData eventData){
-        clickFlag = true;
-        TakeIt();
+        if (isBeingHeld == true)
+        {
+            Destroy(go);
+            isBeingHeld = false;
+        }
+        else
+        {
+            clickFlag = true;
+            TakeIt();
+        }
 	}
     public void OnPointerUp(PointerEventData eventData)
     {
@@ -43,10 +51,13 @@ public class spawnItem : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     private void TakeIt()
     {
         Vector3 mousePos = MousePos();
-        if (isBeingHeld == false && Skupljanje.valuta >= cijena)
+        if (isBeingHeld == false && Collecting.money >= price)
         {
             //instantizacija objekta
             go = (GameObject)Instantiate(prefab, new Vector3(mousePos.x, mousePos.y, 0), Quaternion.identity);
+            Animation goAnimation = go.GetComponent<Animation>();
+            if (goAnimation)
+                goAnimation.enabled = false;
             isBeingHeld = true;
         }
     }
@@ -66,11 +77,10 @@ public class spawnItem : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
                 else if ((item.collider.gameObject.tag == "Plant" || item.collider.gameObject.tag == "InvisPlant") && !(item.collider is BoxCollider2D))
                     plantCount++;
             }
-            Debug.Log($"Plant count: {plantCount}");
             if(foundEmptySpot && plantCount == 0)
             {
                 Vector3 mousePos = MousePos();
-                Skupljanje.valuta -= cijena;
+                Collecting.money -= price;
                 isBeingHeld = false;
                 //convert iz screena u veličinu ekrana
                 go.transform.localPosition = new Vector3(Mathf.Round(mousePos.x), Mathf.Round(mousePos.y), 0);
@@ -78,6 +88,7 @@ public class spawnItem : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
                 col.isTrigger = false;
                 Collider2D col2 = go.GetComponent<BoxCollider2D>();
                 if(col2) col2.enabled = true;
+                go.SendMessage("SetStart", true);
             }
         }
     }

@@ -118,7 +118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6bbb0a077b32d34fb0dea5b01ffa25a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HP: 300
+  HP: 3600
 --- !u!114 &-3319433794851263931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -131,7 +131,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 853313193b7c9184baf77da4e96c49f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thresholdForDamaged1: 150
+  thresholdForDamaged1: 1800
   animator: {fileID: 699787738304161818}
 --- !u!58 &-9124672240566031289
 CircleCollider2D:

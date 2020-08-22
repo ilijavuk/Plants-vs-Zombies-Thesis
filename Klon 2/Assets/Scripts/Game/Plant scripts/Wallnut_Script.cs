@@ -13,6 +13,11 @@ public class Wallnut_Script : MonoBehaviour
         if (GetComponent<PlantsHP>().HP < thresholdForDamaged1 && animator)
         {
             animator.SetInteger("DamagedLevel", 1);
-        }       
+        }
+    }
+
+    void SetStart(bool value)
+    {
+        gameObject.GetComponent<Animator>().Play("Wallnut_Idle");
     }
 }
