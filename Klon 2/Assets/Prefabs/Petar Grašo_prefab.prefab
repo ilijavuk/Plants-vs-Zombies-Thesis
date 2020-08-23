@@ -240,7 +240,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 814ffc36f7df1f5408bee3c4fc54916f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animation: {fileID: 6357165953525480849}
+  anim: {fileID: 6357165953525480849}
   prefab: {fileID: 332025580575867770, guid: 91a903331a5e66749bc5eca4a4e514a9, type: 3}
 --- !u!114 &114814955626221080
 MonoBehaviour:
