@@ -8,26 +8,33 @@ public class zombie : MonoBehaviour
 	public int HP;
     public float speed;
     public static progressBar skripta;
+    private SpriteRenderer Renderer;
     private void Start()
     {
         varijabla.x = -1/speed;
         varijabla.y = 0;
+        Renderer = gameObject.GetComponent<SpriteRenderer>();
     }
     void Update()
 	{
 		this.gameObject.GetComponent<Rigidbody2D>().velocity = varijabla;
 	}
 
-    public void TakeDamage (int damage)
+    void Flicker()
     {
-        HP -= damage;
-
+        Renderer.color = new Color(1f, 1f, 1f, 1f);
         // Destroy if died
         if (HP <= 0)
         {
             StartCoroutine(destroy());
         }
+    }
 
+    public void TakeDamage (int damage)
+    {
+        Renderer.color = new Color(1f, 1f, 1f, .7f);
+        HP -= damage;
+        Invoke("Flicker", 0.1f);
     }
 	IEnumerator destroy()
 	{

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Collecting : MonoBehaviour
 {
-	public static int money = 50;
+	public static int money = 150;
     public ParticleSystem popParticleAnim;
     public AudioSource collectingSound;
     private bool collected = false;
