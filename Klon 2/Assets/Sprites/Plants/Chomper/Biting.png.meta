@@ -1,0 +1,745 @@
+fileFormatVersion: 2
+guid: b9905ada5ac22d8458d0dbd910c1cc6d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4653343888508932464
+    second: Biting_0
+  - first:
+      213: -370989909145721017
+    second: Biting_1
+  - first:
+      213: 6124880906675433354
+    second: Biting_2
+  - first:
+      213: 7276329988929525511
+    second: Biting_3
+  - first:
+      213: 8215619691996647873
+    second: Biting_4
+  - first:
+      213: -2155009468143376582
+    second: Biting_5
+  - first:
+      213: -7429315614428982847
+    second: Biting_6
+  - first:
+      213: 104951000037493722
+    second: Biting_7
+  - first:
+      213: 2131453349751175119
+    second: Biting_8
+  - first:
+      213: -7866733801264939260
+    second: Biting_9
+  - first:
+      213: -457457861723063093
+    second: Biting_10
+  - first:
+      213: 3502966517391362139
+    second: Biting_11
+  - first:
+      213: -3859561364818580399
+    second: Biting_12
+  - first:
+      213: -6195306873042005446
+    second: Biting_13
+  - first:
+      213: 8601605538392704037
+    second: Biting_14
+  - first:
+      213: -2177980829330312180
+    second: Biting_15
+  - first:
+      213: -4033851437148877152
+    second: Biting_16
+  - first:
+      213: 6672989213738014743
+    second: Biting_17
+  - first:
+      213: -4867486891874207256
+    second: Biting_18
+  - first:
+      213: 5644982198107083193
+    second: Biting_19
+  - first:
+      213: 9034794513765674984
+    second: Biting_20
+  - first:
+      213: 7752684705412224667
+    second: Biting_21
+  - first:
+      213: 689459574582098509
+    second: Biting_22
+  - first:
+      213: 637799347823192461
+    second: Biting_23
+  - first:
+      213: 245521721504973297
+    second: Biting_24
+  - first:
+      213: 4030363932305142878
+    second: Biting_25
+  - first:
+      213: -1078115840139474443
+    second: Biting_26
+  - first:
+      213: 3031644395606546844
+    second: Biting_27
+  - first:
+      213: -1827588542700685411
+    second: Biting_28
+  - first:
+      213: 659319154548887835
+    second: Biting_29
+  - first:
+      213: -1992603941280810666
+    second: Biting_30
+  - first:
+      213: 5611574198148541278
+    second: Biting_31
+  - first:
+      213: 7828653665202469776
+    second: Biting_32
+  - first:
+      213: -6042532096906690376
+    second: Biting_33
+  - first:
+      213: -566704274815332840
+    second: Biting_34
+  - first:
+      213: 2206124763354244962
+    second: Biting_35
+  - first:
+      213: 3398486535875198780
+    second: Biting_36
+  - first:
+      213: 9113626135435088937
+    second: Biting_37
+  - first:
+      213: -7348223652058052883
+    second: Biting_38
+  - first:
+      213: -8673579139035822162
+    second: Biting_39
+  - first:
+      213: -9075881471010634505
+    second: Biting_40
+  - first:
+      213: 2769562166843179106
+    second: Biting_41
+  - first:
+      213: 4813259781712514595
+    second: Biting_42
+  - first:
+      213: 1741742706325306809
+    second: Biting_43
+  - first:
+      213: 8961245620755835635
+    second: Biting_44
+  - first:
+      213: -842783273127576870
+    second: Biting_45
+  - first:
+      213: -4783437450889758664
+    second: Biting_46
+  - first:
+      213: 7288157894119322944
+    second: Biting_47
+  - first:
+      213: 9203009166862446922
+    second: Biting_48
+  - first:
+      213: 2076409831406774742
+    second: Biting_49
+  - first:
+      213: 4560490331836404787
+    second: Biting_50
+  - first:
+      213: -1628300074383292051
+    second: Biting_51
+  - first:
+      213: -3685248037728912651
+    second: Biting_52
+  - first:
+      213: -4118109792829780480
+    second: Biting_53
+  - first:
+      213: -9026924121028689906
+    second: Biting_54
+  - first:
+      213: 425266547256873621
+    second: Biting_55
+  - first:
+      213: -7289942773282435992
+    second: Biting_56
+  - first:
+      213: -6319709736709740972
+    second: Biting_57
+  - first:
+      213: 7690644967802240657
+    second: Biting_58
+  - first:
+      213: -2484499475847352398
+    second: Biting_59
+  - first:
+      213: 3765208439489457322
+    second: Biting_60
+  - first:
+      213: 8194049334895943112
+    second: Biting_61
+  - first:
+      213: 3057694678733573923
+    second: Biting_62
+  - first:
+      213: 2220057858424549126
+    second: Biting_63
+  - first:
+      213: -8577732355357264364
+    second: Biting_64
+  - first:
+      213: 3075812748591309829
+    second: Biting_65
+  - first:
+      213: 4173102348953549922
+    second: Biting_66
+  - first:
+      213: 1058303342295948367
+    second: Biting_67
+  - first:
+      213: -6184332614098396049
+    second: Biting_68
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 75
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Biting_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 100
+        height: 100
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0715f44bc9ff39040800000000000000
+      internalID: 4653343888508932464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biting_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 300
+        width: 100
+        height: 100
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7476d1aa4aaf9daf0800000000000000
+      internalID: -370989909145721017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biting_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 300
+        width: 100
+        height: 100
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f26fdcbb2fff450800000000000000
+      internalID: 6124880906675433354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biting_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 300
+        width: 100
+        height: 100
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7079aa2c297baf460800000000000000
+      internalID: 7276329988929525511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biting_4
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 300
+        width: 100
+        height: 100
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c11a27e49eb30270800000000000000
+      internalID: 8215619691996647873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biting_5
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 300
+        width: 100
+        height: 100
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a37e5b37e4ed712e0800000000000000
+      internalID: -2155009468143376582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biting_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 100
+        height: 100
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c192b59fc4c5e890800000000000000
+      internalID: -7429315614428982847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biting_7
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 200
+        width: 100
+        height: 100
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb8e04e06cd47100800000000000000
+      internalID: 104951000037493722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biting_8
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 200
+        width: 100
+        height: 100
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc73c375781749d10800000000000000
+      internalID: 2131453349751175119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biting_9
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 200
+        width: 100
+        height: 100
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f7b09994fb3d290800000000000000
+      internalID: -7866733801264939260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biting_10
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 200
+        width: 100
+        height: 100
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc794c9f78c6a9f0800000000000000
+      internalID: -457457861723063093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biting_11
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 200
+        width: 100
+        height: 100
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b580331fc790d9030800000000000000
+      internalID: 3502966517391362139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biting_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 100
+        height: 100
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15caa253365107ac0800000000000000
+      internalID: -3859561364818580399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biting_13
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 100
+        width: 100
+        height: 100
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a329bcd1939d50aa0800000000000000
+      internalID: -6195306873042005446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biting_14
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 100
+        width: 100
+        height: 100
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5240ee5f9aa0f5770800000000000000
+      internalID: 8601605538392704037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biting_15
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 100
+        width: 100
+        height: 100
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04f724a9f146c1e0800000000000000
+      internalID: -2177980829330312180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biting_16
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 100
+        width: 100
+        height: 100
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aeca0c7d71e408c0800000000000000
+      internalID: -4033851437148877152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biting_17
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 100
+        width: 100
+        height: 100
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7181edab5583b9c50800000000000000
+      internalID: 6672989213738014743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biting_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 100
+        height: 100
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9b7fcf576337cb0800000000000000
+      internalID: -4867486891874207256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biting_19
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 100
+        height: 100
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b193999661075e40800000000000000
+      internalID: 5644982198107083193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
