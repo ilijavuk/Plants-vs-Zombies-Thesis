@@ -17,7 +17,7 @@ public class Chomper : MonoBehaviour
         BoxCollider = gameObject.GetComponent<BoxCollider2D>();
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerStay2D(Collider2D other)
     {
         if (other.gameObject.tag == "Zombie" && !Biting)
         {
@@ -33,7 +33,6 @@ public class Chomper : MonoBehaviour
             
             if(Anim.GetBool("chewing") == false)
             {
-
                 Biting = false;
             }
         }
@@ -66,6 +65,7 @@ public class Chomper : MonoBehaviour
 
     void SetStart(bool value)
     {
+        gameObject.GetComponent<BoxCollider2D>().enabled = true;
         gameObject.GetComponent<Animator>().Play("Chomper_Idle");
         Vector3 oldPosition = transform.position;
         transform.position = new Vector3(oldPosition.x - 0.5f, oldPosition.y - 0.5f, 0);

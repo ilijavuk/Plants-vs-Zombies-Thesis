@@ -30,6 +30,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 6477759044850781788, guid: 21f5c4650a383d242bdc23e33e0762a9,
         type: 3}
+    - target: {fileID: 1541806830, guid: 55df22355405d6545b3502946d8fa6b4, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2118996329394402664, guid: 55df22355405d6545b3502946d8fa6b4,
         type: 3}
       propertyPath: m_Bounds.m_Center.y
@@ -43,7 +47,7 @@ PrefabInstance:
     - target: {fileID: 2118996329394402667, guid: 55df22355405d6545b3502946d8fa6b4,
         type: 3}
       propertyPath: m_Name
-      value: Conehead_Zombie_Prefab
+      value: Buckethead_Zombie_Prefab
       objectReference: {fileID: 0}
     - target: {fileID: 2118996329394402670, guid: 55df22355405d6545b3502946d8fa6b4,
         type: 3}

@@ -70,7 +70,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1642552689
   m_SortingLayer: 3
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 6223603635901330487, guid: 21f5c4650a383d242bdc23e33e0762a9,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -166,7 +166,7 @@ PrefabInstance:
     - target: {fileID: 5940629238314506436, guid: 84130c1be96c9e843a25ddcf6a0823ae,
         type: 3}
       propertyPath: m_Name
-      value: Brownshirt_Zombie_prefab
+      value: Conehead_Zombie_Prefab
       objectReference: {fileID: 0}
     - target: {fileID: 5940629238314506437, guid: 84130c1be96c9e843a25ddcf6a0823ae,
         type: 3}
