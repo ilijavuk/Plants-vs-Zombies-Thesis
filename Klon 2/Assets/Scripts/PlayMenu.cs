@@ -49,4 +49,9 @@ public class PlayMenu : MonoBehaviour
         Counter.currentLevel = level;
         SceneManager.LoadScene($"Level_{level}");
     }
+
+    public void BackToMenu()
+    {
+        SceneManager.LoadScene("Menu");
+    }
 }
