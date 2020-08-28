@@ -28,14 +28,25 @@ public class AudioSettings : MonoBehaviour
             }
             audio.audioSource.volume = musicVolume;
         }
-        if (gameObject.name == "Slider")
+        if (gameObject.name == "MusicSlider")
         {
             gameObject.GetComponent<Slider>().value = musicVolume;
+        }
+        else if (gameObject.name == "SFXSlider")
+        {
+            gameObject.GetComponent<Slider>().value = sfxVolume;
         }
     }
 
     public void SetMusicVolume(System.Single value)
     {
-        PlayerPrefs.SetFloat("music", value);
+        if (gameObject.name == "MusicSlider")
+        {
+            PlayerPrefs.SetFloat("music", value);
+        }
+        else if (gameObject.name == "SFXSlider")
+        {
+            PlayerPrefs.SetFloat("sfx", value);
+        }
     }
 }

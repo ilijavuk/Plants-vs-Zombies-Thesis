@@ -47,11 +47,11 @@ public class PlayMenu : MonoBehaviour
     public void StartLevel(int level)
     {
         Counter.currentLevel = level;
-        SceneManager.LoadScene($"Level_{level}");
+        SceneManager.LoadSceneAsync($"Level_{level}");
     }
 
     public void BackToMenu()
     {
-        SceneManager.LoadScene("Menu");
+        SceneManager.LoadSceneAsync("Menu");
     }
 }
