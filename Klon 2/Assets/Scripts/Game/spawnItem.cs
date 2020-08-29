@@ -39,12 +39,7 @@ public class spawnItem : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         mousePos = Camera.main.ScreenToWorldPoint(mousePos);
         return mousePos;
     }
-
-    void Start()
-    {
-        transform.GetChild(0).GetComponent<Text>().text = price.ToString();
-    }
-
+    
 	void Update(){
         if (UnityEngine.Input.GetMouseButton(0))
         {

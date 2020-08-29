@@ -1,0 +1,1150 @@
+fileFormatVersion: 2
+guid: 536c03a717a45fe4ca928f6decf65c79
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7329403358099983862
+    second: Ice_Pea_Idle_0
+  - first:
+      213: -9215591835094744013
+    second: Ice_Pea_Idle_1
+  - first:
+      213: -5639368581255599749
+    second: Ice_Pea_Idle_2
+  - first:
+      213: -4384862691985262587
+    second: Ice_Pea_Idle_3
+  - first:
+      213: 7483761267638918387
+    second: Ice_Pea_Idle_4
+  - first:
+      213: -348596195188576683
+    second: Ice_Pea_Idle_5
+  - first:
+      213: 3240564765175594942
+    second: Ice_Pea_Idle_6
+  - first:
+      213: -2347337814090300482
+    second: Ice_Pea_Idle_7
+  - first:
+      213: -7941187117524790185
+    second: Ice_Pea_Idle_8
+  - first:
+      213: -6753426055309238778
+    second: Ice_Pea_Idle_9
+  - first:
+      213: 7843681919481097376
+    second: Ice_Pea_Idle_10
+  - first:
+      213: 4486740407568505092
+    second: Ice_Pea_Idle_11
+  - first:
+      213: -4253287290687444677
+    second: Ice_Pea_Idle_12
+  - first:
+      213: 3290541057122739685
+    second: Ice_Pea_Idle_13
+  - first:
+      213: -6410654832918957333
+    second: Ice_Pea_Idle_14
+  - first:
+      213: -7009927073478613980
+    second: Ice_Pea_Idle_15
+  - first:
+      213: -2411703256756688114
+    second: Ice_Pea_Idle_16
+  - first:
+      213: 5800073419497956283
+    second: Ice_Pea_Idle_17
+  - first:
+      213: -7218151661135545534
+    second: Ice_Pea_Idle_18
+  - first:
+      213: 8435514797785212818
+    second: Ice_Pea_Idle_19
+  - first:
+      213: -3214348667584935058
+    second: Ice_Pea_Idle_20
+  - first:
+      213: 8102607335211209383
+    second: Ice_Pea_Idle_21
+  - first:
+      213: -1016767979932847075
+    second: Ice_Pea_Idle_22
+  - first:
+      213: 6605656991964374032
+    second: Ice_Pea_Idle_23
+  - first:
+      213: -6394217952140789840
+    second: Ice_Pea_Idle_24
+  - first:
+      213: 1127196936282868246
+    second: Ice_Pea_Idle_25
+  - first:
+      213: 4488848201128696220
+    second: Ice_Pea_Idle_26
+  - first:
+      213: -894941683472298987
+    second: Ice_Pea_Idle_27
+  - first:
+      213: -6287262756085030644
+    second: Ice_Pea_Idle_28
+  - first:
+      213: 6873956612061367282
+    second: Ice_Pea_Idle_29
+  - first:
+      213: 7848358881381094416
+    second: Ice_Pea_Idle_30
+  - first:
+      213: -208825234949283491
+    second: Ice_Pea_Idle_31
+  - first:
+      213: -4065695486772966805
+    second: Ice_Pea_Idle_32
+  - first:
+      213: 2006693770452693208
+    second: Ice_Pea_Idle_33
+  - first:
+      213: -4525892493099279443
+    second: Ice_Pea_Idle_34
+  - first:
+      213: -1646783224283482876
+    second: Ice_Pea_Idle_35
+  - first:
+      213: -8390963780348060061
+    second: Ice_Pea_Idle_36
+  - first:
+      213: -2704328844796714572
+    second: Ice_Pea_Idle_37
+  - first:
+      213: 9029092695877485777
+    second: Ice_Pea_Idle_38
+  - first:
+      213: 3757327226899361372
+    second: Ice_Pea_Idle_39
+  - first:
+      213: -4225588803303467482
+    second: Ice_Pea_Idle_40
+  - first:
+      213: -205010143194586865
+    second: Ice_Pea_Idle_41
+  - first:
+      213: -3294452318771973345
+    second: Ice_Pea_Idle_42
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 400
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ice_Pea_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2360
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0235e88a7ab84a90800000000000000
+      internalID: -7329403358099983862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Pea_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2360
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33400326d04ab1080800000000000000
+      internalID: -9215591835094744013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Pea_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2360
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79e2cc6720fcb1b0800000000000000
+      internalID: -5639368581255599749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Pea_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2360
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508fa571d96d523c0800000000000000
+      internalID: -4384862691985262587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Pea_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2360
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fcd175e839abd760800000000000000
+      internalID: 7483761267638918387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Pea_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2360
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e6bbf7b99892bf0800000000000000
+      internalID: -348596195188576683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Pea_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2360
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf30f31c7cc8fc20800000000000000
+      internalID: 3240564765175594942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Pea_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1960
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb34e4fd1b49c6fd0800000000000000
+      internalID: -2347337814090300482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Pea_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1960
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754d60d046c3bc190800000000000000
+      internalID: -7941187117524790185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Pea_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1960
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60edc6ca8c20742a0800000000000000
+      internalID: -6753426055309238778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Pea_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1960
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac23dde52b5adc60800000000000000
+      internalID: 7843681919481097376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Pea_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1960
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 409138001aa144e30800000000000000
+      internalID: 4486740407568505092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Pea_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1960
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3924e67eb949f4c0800000000000000
+      internalID: -4253287290687444677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Pea_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1960
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5a3ac48a95aad20800000000000000
+      internalID: 3290541057122739685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Pea_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1560
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be279320567c807a0800000000000000
+      internalID: -6410654832918957333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Pea_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1560
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424e9e3877cb7be90800000000000000
+      internalID: -7009927073478613980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Pea_Idle_16
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1560
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b6d5d6aa8e78ed0800000000000000
+      internalID: -2411703256756688114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Pea_Idle_17
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1560
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb36c508b000e7050800000000000000
+      internalID: 5800073419497956283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Pea_Idle_18
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1560
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24bbe1fbe49f3db90800000000000000
+      internalID: -7218151661135545534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Pea_Idle_19
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1560
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 297e98be308f01570800000000000000
+      internalID: 8435514797785212818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Pea_Idle_20
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1560
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b895ccae65463d0800000000000000
+      internalID: -3214348667584935058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Pea_Idle_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1160
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a21db1217e327070800000000000000
+      internalID: 8102607335211209383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Pea_Idle_22
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1160
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d147c19c8e6b3e1f0800000000000000
+      internalID: -1016767979932847075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Pea_Idle_23
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1160
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014ac1239020cab50800000000000000
+      internalID: 6605656991964374032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Pea_Idle_24
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1160
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b7f83a86ac2347a0800000000000000
+      internalID: -6394217952140789840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Pea_Idle_25
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1160
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a8c0334ab94af00800000000000000
+      internalID: 1127196936282868246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Pea_Idle_26
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1160
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c995deee7a79b4e30800000000000000
+      internalID: 4488848201128696220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Pea_Idle_27
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1160
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c81fdc7478493f0800000000000000
+      internalID: -894941683472298987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Pea_Idle_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 760
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01220ea5d72fb8a0800000000000000
+      internalID: -6287262756085030644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Pea_Idle_29
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 760
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb8d5f6e13356f50800000000000000
+      internalID: 6873956612061367282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Pea_Idle_30
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 760
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014908af1d8faec60800000000000000
+      internalID: 7848358881381094416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Pea_Idle_31
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 760
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51e5b22e8a1a1df0800000000000000
+      internalID: -208825234949283491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Pea_Idle_32
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 760
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a0df9ee7fb397c0800000000000000
+      internalID: -4065695486772966805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Pea_Idle_33
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 760
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d072d03a5539db10800000000000000
+      internalID: 2006693770452693208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Pea_Idle_34
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 760
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dabd539b1ccc031c0800000000000000
+      internalID: -4525892493099279443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Pea_Idle_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405b28ee1637529e0800000000000000
+      internalID: -1646783224283482876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Pea_Idle_36
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 360
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e5f2526ee4d8b80800000000000000
+      internalID: -8390963780348060061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Pea_Idle_37
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 360
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b1ac0a6e3b487ad0800000000000000
+      internalID: -2704328844796714572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Pea_Idle_38
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 360
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d40addf7f7cd4d70800000000000000
+      internalID: 9029092695877485777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Pea_Idle_39
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 360
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e6d38a435b42430800000000000000
+      internalID: 3757327226899361372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Pea_Idle_40
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 360
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6269a3c1f51bb55c0800000000000000
+      internalID: -4225588803303467482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Pea_Idle_41
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 360
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01e8876c58a72df0800000000000000
+      internalID: -205010143194586865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Pea_Idle_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2302
+        width: 3040
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1372222211c742d0800000000000000
+      internalID: -3294452318771973345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

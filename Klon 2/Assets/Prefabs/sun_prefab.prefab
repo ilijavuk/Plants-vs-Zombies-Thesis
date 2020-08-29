@@ -155,6 +155,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   popParticleAnim: {fileID: -775035757069815592}
   collectingSound: {fileID: 4442692647294691918}
+  Target: {fileID: 0}
 --- !u!198 &-775035757069815592
 ParticleSystem:
   m_ObjectHideFlags: 0
@@ -5005,7 +5006,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 2571d52c4519ab44891c4758db00cc14, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0
+  m_Volume: 0.7924727
   m_Pitch: 1
   Loop: 0
   Mute: 0

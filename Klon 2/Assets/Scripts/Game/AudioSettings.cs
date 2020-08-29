@@ -49,4 +49,13 @@ public class AudioSettings : MonoBehaviour
             PlayerPrefs.SetFloat("sfx", value);
         }
     }
+
+    public void StopPlaying()
+    {
+        Debug.Log("stopping");
+        foreach(var audio in audioSources)
+        {
+            audio.audioSource.Stop();
+        }
+    }
 }
