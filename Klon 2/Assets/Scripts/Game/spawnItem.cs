@@ -8,6 +8,7 @@ public class spawnItem : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
     public int price;
 	public GameObject prefab;
+    public AudioScript SoundEffects;
     private bool isBeingHeld = false;
 	private GameObject go;
     private bool clickFlag;
@@ -15,6 +16,7 @@ public class spawnItem : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     //uzimanje
     public void OnPointerDown(PointerEventData eventData)
     {
+        SoundEffects.PlaySound(1);
         if (isBeingHeld == true)
         {
             Destroy(go);
@@ -64,6 +66,10 @@ public class spawnItem : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
                 goAnimation.enabled = false;
             isBeingHeld = true;
         }
+        else
+        {
+            SoundEffects.PlaySound(0);
+        }
     }
     
     private void LeaveIt()
@@ -81,7 +87,6 @@ public class spawnItem : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
                 else if ((item.collider.gameObject.tag == "TakenGround"))
                     plantCount++;
             }
-            Debug.Log(plantCount);
             if(foundEmptySpot && plantCount == 1)
             {
                 Vector3 mousePos = MousePos();
@@ -92,6 +97,7 @@ public class spawnItem : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
                 Collider2D col = go.GetComponent<CircleCollider2D>();
                 col.isTrigger = false;
                 go.SendMessage("SetStart", true);
+                SoundEffects.PlaySound(Random.Range(2, 4));
             }
         }
     }

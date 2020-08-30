@@ -6,7 +6,6 @@ public class DefeatAndVictory : MonoBehaviour
 {
     public TextMeshProUGUI m_Text;
     public GameObject go;
-    public int level;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -22,8 +21,8 @@ public class DefeatAndVictory : MonoBehaviour
     {
         if(Counter.value >= Levels.spawns[Counter.currentLevel-1, 0])
         {
-            if (PlayerPrefs.GetInt("savedLevel") >= Counter.currentLevel) 
-                PlayerPrefs.SetInt("savedLevel", level+1);
+            if (PlayerPrefs.GetInt("savedLevel") == Counter.currentLevel) 
+                PlayerPrefs.SetInt("savedLevel", Counter.currentLevel+1);
             go.SetActive(true);
         }
     }

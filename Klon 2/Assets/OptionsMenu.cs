@@ -9,10 +9,26 @@ public class OptionsMenu : MonoBehaviour
     public GameObject Panel;
     private bool PanelToggledOn = false;
 
+    private void Start()
+    {
+        Counter.value = 0;
+    }
+
     public void SwitchToMainMenu()
     {
         Time.timeScale = 1;
+        Counter.value = 0;
+        Collecting.money = 50;
         SceneManager.LoadScene(0);
+    }
+
+    public void ProceedToNextLevel()
+    {
+        Counter.currentLevel++;
+        Time.timeScale = 1;
+        Counter.value = 0;
+        Collecting.money = 50;
+        SceneManager.LoadScene("Level_1");
     }
 
     void Update()

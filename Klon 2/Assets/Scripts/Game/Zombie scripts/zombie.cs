@@ -14,6 +14,8 @@ public class zombie : MonoBehaviour
         varijabla.x = -1/speed;
         varijabla.y = 0;
         Renderer = gameObject.GetComponent<SpriteRenderer>();
+        GetComponent<Animator>().GetCurrentAnimatorClipInfo().
+        //GetComponent<Animator>().Play();
     }
     void Update()
 	{

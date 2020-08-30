@@ -5,41 +5,35 @@ using UnityEngine.UI;
 
 public class Collecting : MonoBehaviour
 {
-	public static int money = 150;
+	public static int money = 50;
     public ParticleSystem popParticleAnim;
     public AudioSource collectingSound;
-    public GameObject Target;
     private bool collected = false;
-    
+    private Vector2 targetPosition;
+
+
     void Update()
     {
-        Vector2 targetPosition = Camera.main.ScreenToViewportPoint(new Vector2(30, Camera.main.pixelHeight-80));
-        
         if (collected)
         {
             float step = 8 * Time.deltaTime; 
-            transform.position = Vector3.MoveTowards(transform.position, new Vector2(30, -80), step);
+            transform.position = Vector3.MoveTowards(transform.position, targetPosition, step);
 
-            if (Vector3.Distance(transform.position, new Vector2(30, -80)) < 0.001f)
+            if (Vector3.Distance(transform.position, targetPosition) < 2f)
             {
-                money += 50;
+                money += 25;
                 Destroy(gameObject);
             }
         }
     }
     
 	void OnMouseDown(){
-
-        if (popParticleAnim && popParticleAnim.isPlaying)
-            popParticleAnim.Stop();
-
         if (popParticleAnim)
         {
             collectingSound.Play();
-            var main = popParticleAnim.main;
-            main.simulationSpeed = 4;
             popParticleAnim.Play();
         }
+        targetPosition = Camera.main.ViewportToWorldPoint(new Vector3(0, 1, 0));
         collected = true;
     }
 

@@ -6,15 +6,17 @@ public class PlayAudio : MonoBehaviour
 {
     public AudioSource Audio;
     public AudioSource Music;
+    public GameObject GO;
 
-    private void OnMouseDown()
+    void OnMouseDown()
     {
         Audio.Play();
+        GO.SetActive(true);
     }
 
     public void StartPlayingAudio()
     {
-        Music.volume = 0;
+        Music.Stop();
         Audio.Play();
     }
 }

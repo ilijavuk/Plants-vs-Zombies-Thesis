@@ -4,20 +4,16 @@ using UnityEngine;
 
 public class SunflowerSpawningSuns : MonoBehaviour
 {
-	private float posX;
-	private	float posY;
-	public GameObject prefab;
+	public GameObject Prefab;
 
 	void Spawn(){
-		posX = transform.position.x;
-		posY = transform.position.y;
-        GameObject go = Instantiate(prefab, new Vector3(posX + 0.25f, posY + 0.25f, 0), Quaternion.identity);
+        GameObject go = Instantiate(Prefab, new Vector3(transform.position.x + 0.25f, transform.position.y + 0.25f, -1f), Quaternion.identity);
         go.GetComponent<SpriteRenderer>().transform.localScale = new Vector3(0.75f, 0.75f, 0.75f);
         go.GetComponent<Speed>().enabled = false;
     }
     void SetStart(bool value)
     {
-        InvokeRepeating("Spawn", 7, 24);
-        gameObject.GetComponent<Animator>().Play("Sunflower_Idle");
+        InvokeRepeating("Spawn", 4, 10);
+        gameObject.GetComponent<Animator>().SetBool("IsSpawned", true);
     }
 }

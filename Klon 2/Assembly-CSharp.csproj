@@ -67,7 +67,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\Scripts\Game\Zombie scripts\zombie_damage.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
-    <Compile Include="Assets\Scripts\Game\checkLockedStatus.cs" />
+    <Compile Include="Assets\Scripts\Game\CheckLockedStatus.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\Scripts\Game\Counter.cs" />
     <Compile Include="Assets\Scripts\intro_text.cs" />
@@ -76,6 +76,7 @@
     <Compile Include="Assets\Scripts\Sunce\SunSpawn.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+    <Compile Include="Assets\PlayAudio.cs" />
     <Compile Include="Assets\Scripts\Game\Plant scripts\Explosion.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\Scripts\Game\Zombie scripts\ZombiSpawn.cs" />
@@ -115,7 +116,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\Scripts\Game\Zombie scripts\zombie.cs" />
     <Compile Include="Assets\Scripts\Sunce\SunflowerSpawningSuns.cs" />
-    <Compile Include="Assets\PlayAudio.cs" />
+    <Compile Include="Assets\AudioScript.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
