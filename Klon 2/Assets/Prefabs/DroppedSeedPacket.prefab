@@ -197,6 +197,8 @@ MonoBehaviour:
   Audio: {fileID: 8493549966233188700}
   Music: {fileID: 0}
   GO: {fileID: 0}
+  RewardSprites: []
+  SeedPacketSprites: []
 --- !u!50 &8493549966233188699
 Rigidbody2D:
   serializedVersion: 4

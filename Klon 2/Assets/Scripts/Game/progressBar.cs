@@ -6,7 +6,6 @@ public class progressBar : MonoBehaviour
 {
     public TMPro.TextMeshProUGUI m_text_current;
     public TMPro.TextMeshProUGUI m_text_number;
-    private float var;
     
     private void Start()
     {

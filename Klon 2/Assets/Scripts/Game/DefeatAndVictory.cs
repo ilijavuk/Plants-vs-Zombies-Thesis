@@ -24,6 +24,7 @@ public class DefeatAndVictory : MonoBehaviour
             if (PlayerPrefs.GetInt("savedLevel") == Counter.currentLevel) 
                 PlayerPrefs.SetInt("savedLevel", Counter.currentLevel+1);
             go.SetActive(true);
+            Time.timeScale = 0;
         }
     }
 }

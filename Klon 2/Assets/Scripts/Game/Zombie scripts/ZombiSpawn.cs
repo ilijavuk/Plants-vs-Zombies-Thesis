@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -6,25 +7,36 @@ using UnityEngine.SceneManagement;
 public class ZombiSpawn : MonoBehaviour
 {
     public GameObject[] prefab;
-    public int start;
-    public int end;
     public float delay;
+    private Nullable<int> start = null;
+    private Nullable<int> end = null;
     private int numberOfSpawns;
     private int typeOfSpawns;
+    private int currentIndex = 0;
     void Start() {
         numberOfSpawns = Levels.spawns[Counter.currentLevel - 1, 0];
         typeOfSpawns = Levels.spawns[Counter.currentLevel - 1, 1];
-        StartCoroutine(spawn());
+        for( int i = 0; i < 5; i++)
+        {
+            if (start == null && Levels.levelTilemaps[Counter.currentLevel - 1, i] == 1)
+                start = i - 2;
+            if (start != null && Levels.levelTilemaps[Counter.currentLevel - 1, i] == 0)
+            {
+                end = i - 3;
+                break;
+            }
+        }
+        Debug.Log(start + " " + end);
+        Invoke("Spawn", delay);
     }
 
-    IEnumerator spawn()
+    private void Spawn()
     {
-        Vector3 pozicijaSpawn = new Vector3(8, Random.Range(start, end), 0);
-        yield return new WaitForSeconds(delay);
-        for (int i = 0; i < numberOfSpawns; i++)
+        if (currentIndex < numberOfSpawns)
         {
-            Instantiate(prefab[Random.Range(0, typeOfSpawns)], pozicijaSpawn, Quaternion.identity);
-            yield return new WaitForSeconds(Random.Range(0.0f, 10.0f));
+            Instantiate(prefab[UnityEngine.Random.Range(0, typeOfSpawns)], new Vector3(8, (float)Math.Round(UnityEngine.Random.Range((float)start, (float)end)), 0), Quaternion.identity);
+            currentIndex++;
+            Invoke("Spawn", UnityEngine.Random.Range(5f, 15f));
         }
     }
 }

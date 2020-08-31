@@ -28,7 +28,10 @@ public class OptionsMenu : MonoBehaviour
         Time.timeScale = 1;
         Counter.value = 0;
         Collecting.money = 50;
-        SceneManager.LoadScene("Level_1");
+        if(Counter.currentLevel <= 10)
+            SceneManager.LoadScene("Level_1");
+        else
+            SceneManager.LoadScene(0);
     }
 
     void Update()

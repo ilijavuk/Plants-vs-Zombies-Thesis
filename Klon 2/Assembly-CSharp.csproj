@@ -76,7 +76,7 @@
     <Compile Include="Assets\Scripts\Sunce\SunSpawn.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
-    <Compile Include="Assets\Scripts\Game\PlayAudio.cs" />
+    <Compile Include="Assets\Scripts\Game\OpenRewardScreen.cs" />
     <Compile Include="Assets\Scripts\Game\Plant scripts\Explosion.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\Scripts\Game\Zombie scripts\ZombiSpawn.cs" />
