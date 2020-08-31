@@ -6,6 +6,8 @@ public class ProjectileVeloc : MonoBehaviour
 {
     public Vector2 SpeedVector;
     public int Damage;
+    public AudioSource[] SplatSounds;
+
 	void Start()
 	{
 		this.gameObject.GetComponent<Rigidbody2D>().velocity = SpeedVector;
@@ -21,6 +23,7 @@ public class ProjectileVeloc : MonoBehaviour
     {
         if (other.gameObject.tag == "Zombie")
         {
+            SplatSounds[Random.Range(0, SplatSounds.Length)].Play();
             other.GetComponent<zombie>().TakeDamage(Damage);
             Destroy(gameObject);
         }

@@ -7,15 +7,11 @@ using TMPro;
 
 public class PlayMenu : MonoBehaviour
 {
-    // Start is called before the first frame update
-    private int savedLevel;
-
     void Start()
     {
         if(PlayerPrefs.HasKey("savedLevel"))
         {
-            savedLevel = PlayerPrefs.GetInt("savedLevel");
-            EnableButtons(savedLevel);
+            EnableButtons(PlayerPrefs.GetInt("savedLevel"));
         }
         else{
             EnableButtons(1);        }
@@ -47,7 +43,7 @@ public class PlayMenu : MonoBehaviour
     public void StartLevel(int level)
     {
         Counter.currentLevel = level;
-        SceneManager.LoadSceneAsync($"Level_1");
+        SceneManager.LoadSceneAsync("Level_1");
     }
 
     public void BackToMenu()

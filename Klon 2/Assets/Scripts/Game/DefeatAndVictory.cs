@@ -2,10 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
+
 public class DefeatAndVictory : MonoBehaviour
 {
     public TextMeshProUGUI m_Text;
     public GameObject go;
+    public AudioSource DefeatSound;
+    public AudioSource ScreamSound;
+    public Button ReloadLevel;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -13,6 +18,9 @@ public class DefeatAndVictory : MonoBehaviour
         {
             m_Text.text = "GAME OVER!";
             m_Text.enabled = true;
+            DefeatSound.Play();
+            ScreamSound.Play();
+            ReloadLevel.gameObject.SetActive(true);
             Time.timeScale = 0;
         }
     }

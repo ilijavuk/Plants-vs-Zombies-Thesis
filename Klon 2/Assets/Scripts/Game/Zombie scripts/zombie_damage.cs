@@ -10,10 +10,12 @@ public class zombie_damage : MonoBehaviour
     public float hittingCooldown;
     private float timer;
     private GameObject go;
+    private AudioSource[] BiteSounds;
     
     private void Start()
     {
         timer = hittingCooldown;
+        BiteSounds = GetComponents<AudioSource>();
     }
 
     void DoDamage()
@@ -21,6 +23,7 @@ public class zombie_damage : MonoBehaviour
         timer -= Time.deltaTime;
         if (timer <= 0)
         {
+            BiteSounds[Random.Range(0, BiteSounds.Length)].Play();
             go.GetComponent<PlantsHP>().SmanjiHP(damage);
             timer = hittingCooldown;
         }

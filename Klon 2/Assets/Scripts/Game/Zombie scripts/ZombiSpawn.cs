@@ -8,6 +8,7 @@ public class ZombiSpawn : MonoBehaviour
 {
     public GameObject[] prefab;
     public float delay;
+    public AudioSource ZombiesAreComing;
     private Nullable<int> start = null;
     private Nullable<int> end = null;
     private int numberOfSpawns;
@@ -26,7 +27,7 @@ public class ZombiSpawn : MonoBehaviour
                 break;
             }
         }
-        Debug.Log(start + " " + end);
+        ZombiesAreComing.PlayDelayed(delay);
         Invoke("Spawn", delay);
     }
 

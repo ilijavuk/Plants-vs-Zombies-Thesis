@@ -7,6 +7,7 @@ using UnityEngine.UIElements;
 public class OptionsMenu : MonoBehaviour
 {
     public GameObject Panel;
+    public AudioSource PauseSound;
     private bool PanelToggledOn = false;
 
     private void Start()
@@ -28,7 +29,7 @@ public class OptionsMenu : MonoBehaviour
         Time.timeScale = 1;
         Counter.value = 0;
         Collecting.money = 50;
-        if(Counter.currentLevel <= 10)
+        if(Counter.currentLevel < 10)
             SceneManager.LoadScene("Level_1");
         else
             SceneManager.LoadScene(0);
@@ -45,8 +46,16 @@ public class OptionsMenu : MonoBehaviour
         }
     }
 
+    public void ReloadLevel()
+    {
+        Time.timeScale = 1;
+        Counter.value = 0;
+        Collecting.money = 50;
+    }
+
     public void PauseGame()
     {
+        PauseSound.Play();
         PanelToggledOn = true;
         Panel.SetActive(true);
         Time.timeScale = 0;
@@ -54,6 +63,7 @@ public class OptionsMenu : MonoBehaviour
 
     public void ResumeGame()
     {
+        PauseSound.Play();
         PanelToggledOn = false;
         Panel.SetActive(false);
         Time.timeScale = 1;

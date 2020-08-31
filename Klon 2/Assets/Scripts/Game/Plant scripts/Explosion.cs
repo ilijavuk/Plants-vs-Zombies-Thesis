@@ -8,6 +8,7 @@ public class Explosion : MonoBehaviour
     public float radius;
     public int damage;
     public Animator animator;
+    public AudioSource ExplosionSound;
 
     public virtual void SetStart(bool value) { }
 
@@ -18,6 +19,7 @@ public class Explosion : MonoBehaviour
 
     public void Explode()
     {
+        ExplosionSound.Play();
         Collider2D[] objectsInRange = Physics2D.OverlapBoxAll(transform.position, new Vector2(radius, radius), 0);
         foreach (Collider2D col in objectsInRange)
         {

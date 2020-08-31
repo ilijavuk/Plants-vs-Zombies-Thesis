@@ -7,16 +7,14 @@ using UnityEngine.UI;
 public class AudioSettings : MonoBehaviour
 {
     [Serializable]
-    public struct AudioSources
-    {
+    public struct AudioSources{
         public AudioSource audioSource;
         public string group;
     }
 
     public AudioSources[] audioSources;
 
-    void Start()
-    {
+    void Start(){
         float musicVolume = PlayerPrefs.GetFloat("music");
         float sfxVolume = PlayerPrefs.GetFloat("sfx");
         foreach(var audio in audioSources)
@@ -38,8 +36,7 @@ public class AudioSettings : MonoBehaviour
         }
     }
 
-    public void SetMusicVolume(System.Single value)
-    {
+    public void SetMusicVolume(System.Single value){
         if (gameObject.name == "MusicSlider")
         {
             PlayerPrefs.SetFloat("music", value);
@@ -50,9 +47,7 @@ public class AudioSettings : MonoBehaviour
         }
     }
 
-    public void StopPlaying()
-    {
-        Debug.Log("stopping");
+    public void StopPlaying(){
         foreach(var audio in audioSources)
         {
             audio.audioSource.Stop();
