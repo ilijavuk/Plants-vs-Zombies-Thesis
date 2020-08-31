@@ -309,6 +309,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Flag_Zombie
       objectReference: {fileID: 0}
+    - target: {fileID: 5940629238314506437, guid: 84130c1be96c9e843a25ddcf6a0823ae,
+        type: 3}
+      propertyPath: AnimationName
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5940629238314506439, guid: 84130c1be96c9e843a25ddcf6a0823ae,
         type: 3}
       propertyPath: m_Bounds.m_Center.x

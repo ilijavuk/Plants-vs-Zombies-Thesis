@@ -14,7 +14,6 @@ public class PlantsHP : MonoBehaviour
         {
             shovel = shovelButton.GetComponent<Shovel>();
         }
-        
     }
 
     public void SmanjiHP(int dmg)

@@ -244,7 +244,7 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 2.0833333
-    functionName: Pucaj
+    functionName: Shoot
     data: 
     objectReferenceParameter: {fileID: 6357165953525480848, guid: 650a536c93666ac459644d88260b662b,
       type: 3}

@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8689675274234100245}
   - component: {fileID: 7406246337444462845}
-  - component: {fileID: 708956000994988999}
   - component: {fileID: 50672636931122242}
   - component: {fileID: 114771614572700890}
   - component: {fileID: 58233646719889072}
@@ -86,25 +85,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &708956000994988999
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 332025580575867770}
-  m_Enabled: 0
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: fb275807a2f4eb4428a227926c39ac82, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!50 &50672636931122242
 Rigidbody2D:
   serializedVersion: 4
@@ -138,8 +118,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df654c01a8044a547bbca11e38f290b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  varijabla: {x: 3, y: 0}
-  damage: 20
+  SpeedVector: {x: 3, y: 0}
+  Damage: 20
 --- !u!58 &58233646719889072
 CircleCollider2D:
   m_ObjectHideFlags: 0

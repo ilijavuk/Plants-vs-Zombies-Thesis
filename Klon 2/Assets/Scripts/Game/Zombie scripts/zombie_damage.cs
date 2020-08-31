@@ -13,9 +13,9 @@ public class zombie_damage : MonoBehaviour
     
     private void Start()
     {
-        animator.SetBool("biting", false);
         timer = hittingCooldown;
     }
+
     void DoDamage()
     {
         timer -= Time.deltaTime;
@@ -25,6 +25,7 @@ public class zombie_damage : MonoBehaviour
             timer = hittingCooldown;
         }
     }
+
     void OnCollisionStay2D(Collision2D other)
     {
         if (other.collider is CircleCollider2D && other.gameObject.tag == "Plant" && !hitting)
@@ -35,6 +36,7 @@ public class zombie_damage : MonoBehaviour
             InvokeRepeating("DoDamage", 0, .01667f);
         }
     }
+
     void OnCollisionExit2D(Collision2D other)
     {
         if (other.gameObject.tag == "Plant")
