@@ -9,12 +9,14 @@ public class PlayMenu : MonoBehaviour
 {
     void Start()
     {
-        if(PlayerPrefs.HasKey("savedLevel"))
+        EnableButtons(10);
+        if (PlayerPrefs.HasKey("savedLevel"))
         {
-            EnableButtons(PlayerPrefs.GetInt("savedLevel"));
+            //EnableButtons(PlayerPrefs.GetInt("savedLevel"));
         }
         else{
-            EnableButtons(1);        }
+            //EnableButtons(1);
+        }
     }
     
     void EnableButtons(int lastLevel)

@@ -191,7 +191,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9659832c5009464dac7ab260cc10cfb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countdown: 5
+  countdown: 15
   radius: 0.5
   damage: 1800
   animator: {fileID: 8165216275945372952}
@@ -252,7 +252,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: af6a499528bf2884d82c0396a3f15aca, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.10789352
+  m_Volume: 0.043613978
   m_Pitch: 1
   Loop: 0
   Mute: 0

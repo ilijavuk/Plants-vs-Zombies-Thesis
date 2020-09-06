@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class OpenRewardScreen: MonoBehaviour
 {
@@ -20,6 +21,10 @@ public class OpenRewardScreen: MonoBehaviour
     {
         Audio.Play();
         GO.SetActive(true);
+        if(Counter.currentLevel == 10)
+        {
+            GO.GetComponentInChildren<Button>().gameObject.SetActive(false);
+        }
     }
 
     public void StartPlayingAudio()

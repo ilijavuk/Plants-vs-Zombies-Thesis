@@ -13,10 +13,15 @@ public class AudioSettings : MonoBehaviour
     }
 
     public AudioSources[] audioSources;
+    float musicVolume = 1f;
+    float sfxVolume = 1f;
 
     void Start(){
-        float musicVolume = PlayerPrefs.GetFloat("music");
-        float sfxVolume = PlayerPrefs.GetFloat("sfx");
+        if (PlayerPrefs.HasKey("music") == true)
+            musicVolume = PlayerPrefs.GetFloat("music");
+        if (PlayerPrefs.HasKey("sfx") == true)
+            sfxVolume = PlayerPrefs.GetFloat("sfx");
+
         foreach(var audio in audioSources)
         {
             switch (audio.group)
@@ -24,7 +29,6 @@ public class AudioSettings : MonoBehaviour
                 case "music": audio.audioSource.volume = musicVolume;  break;
                 case "sfx": audio.audioSource.volume = sfxVolume; break;
             }
-            audio.audioSource.volume = musicVolume;
         }
         if (gameObject.name == "MusicSlider")
         {

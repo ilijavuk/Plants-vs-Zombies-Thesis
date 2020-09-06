@@ -10,14 +10,14 @@ public class ZombiSpawn : MonoBehaviour
     public float delay;
     public AudioSource ZombiesAreComing;
     private Nullable<int> start = null;
-    private Nullable<int> end = null;
+    private Nullable<int> end = 2;
     private int numberOfSpawns;
-    private int typeOfSpawns;
+    private int typeOfSpawns = 1;
     private int currentIndex = 0;
     void Start() {
         numberOfSpawns = Levels.spawns[Counter.currentLevel - 1, 0];
         typeOfSpawns = Levels.spawns[Counter.currentLevel - 1, 1];
-        for( int i = 0; i < 5; i++)
+        for (int i = 0; i < 5; i++)
         {
             if (start == null && Levels.levelTilemaps[Counter.currentLevel - 1, i] == 1)
                 start = i - 2;

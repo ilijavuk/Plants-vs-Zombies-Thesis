@@ -9,11 +9,11 @@ public class PlantsHP : MonoBehaviour
 
     private void Start()
     {
-        GameObject shovelButton = GameObject.Find("Button Shovel");
-        if (shovelButton)
-        {
-            shovel = shovelButton.GetComponent<Shovel>();
-        }
+        //GameObject shovelButton = GameObject.Find("Button Shovel");
+        //if (shovelButton)
+        //{
+        //    shovel = shovelButton.GetComponent<Shovel>();
+        //}
     }
 
     public void SmanjiHP(int dmg)
@@ -34,18 +34,18 @@ public class PlantsHP : MonoBehaviour
 
     private void OnMouseEnter()
     {
-        if(shovel && shovel.toggledOn)
+        if(Shovel.toggledOn)
             gameObject.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, .5f);
     }
     private void OnMouseExit()
     {
-        if (shovel && shovel.toggledOn)
+        if (Shovel.toggledOn)
             gameObject.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
     }
 
     private void OnMouseDown()
     {
-        if (shovel && shovel.toggledOn)
+        if (Shovel.toggledOn)
             Destroy(gameObject);
 
     }

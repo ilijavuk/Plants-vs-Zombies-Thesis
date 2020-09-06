@@ -6,7 +6,6 @@ using UnityEngine.UI;
 
 public class DefeatAndVictory : MonoBehaviour
 {
-    public TextMeshProUGUI m_Text;
     public GameObject go;
     public AudioSource DefeatSound;
     public AudioSource ScreamSound;
@@ -16,8 +15,6 @@ public class DefeatAndVictory : MonoBehaviour
     {
         if(other.tag == "Zombie")
         {
-            m_Text.text = "GAME OVER!";
-            m_Text.enabled = true;
             DefeatSound.Play();
             ScreamSound.Play();
             ReloadLevel.gameObject.SetActive(true);
@@ -29,10 +26,9 @@ public class DefeatAndVictory : MonoBehaviour
     {
         if(Counter.value >= Levels.spawns[Counter.currentLevel-1, 0])
         {
-            if (PlayerPrefs.GetInt("savedLevel") == Counter.currentLevel) 
+            if (!PlayerPrefs.HasKey("savedLevel") || PlayerPrefs.GetInt("savedLevel") == Counter.currentLevel) 
                 PlayerPrefs.SetInt("savedLevel", Counter.currentLevel+1);
             go.SetActive(true);
-            Time.timeScale = 0;
         }
     }
 }

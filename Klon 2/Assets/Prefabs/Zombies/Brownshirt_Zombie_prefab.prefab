@@ -547,7 +547,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 26ca4a8de007ec448aa1851d3827c3f0, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.10789352
+  m_Volume: 0.043613978
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -643,7 +643,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 04882be3d44587d45b7ffdc90657bbcf, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.10789352
+  m_Volume: 0.043613978
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -739,7 +739,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 751f346834a21fb41b11c9c9da3d54a4, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.10789352
+  m_Volume: 0.043613978
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -835,7 +835,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: c6b577b8a88dfff48ad5f4793092012a, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.10789352
+  m_Volume: 0.043613978
   m_Pitch: 1
   Loop: 0
   Mute: 0

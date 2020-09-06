@@ -10,7 +10,6 @@ public class PotatoMine : Explosion
     public override void SetStart(bool value)
     {
         animator.SetBool("IsSpawned", true);
-        blastTrigger.enabled = true;
         blastTrigger.size = new Vector2(radius, radius);
         Invoke("StartArming", countdown);
     }

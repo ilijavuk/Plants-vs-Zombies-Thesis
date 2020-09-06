@@ -6,6 +6,7 @@ using UnityEditor;
 
 public class Draggable : MonoBehaviour
 {
+    /*
 	public static bool drag_ready;
 	public static bool being_dragged;
 	
@@ -36,26 +37,5 @@ public class Draggable : MonoBehaviour
 		}
 		
 	}
-	
-	
-   /*  void Start()
-    {
-        EventTrigger trigger = GetComponent<EventTrigger>();
-        EventTrigger.Entry entry = new EventTrigger.Entry();
-		//dodajemo vrstu eventa "Drag"
-        entry.eventID = EventTriggerType.Drag;
-		//pozovi OnDragDelegate 
-        entry.callback.AddListener((data) => { OnDragDelegate((PointerEventData)data); });
-        trigger.triggers.Add(entry);
-    }
-
-    public void OnDragDelegate(PointerEventData data)
-    {
-        //Create a ray going from the camera through the mouse position
-        Ray ray = Camera.main.ScreenPointToRay(data.position);
-        //Calculate the distance between the Camera and the GameObject, and go this distance along the ray
-        Vector3 rayPoint = ray.GetPoint(Vector3.Distance(transform.position, Camera.main.transform.position));
-        //Move the GameObject when you drag it
-        transform.position = rayPoint;
-    } */
+    */
 }

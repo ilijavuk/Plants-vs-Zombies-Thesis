@@ -9,7 +9,6 @@ public class spawnItem : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     public int price;
 	public GameObject prefab;
     public AudioScript SoundEffects;
-    private bool isBeingHeld = false;
 	private GameObject go;
     private bool clickFlag;
 
@@ -17,10 +16,18 @@ public class spawnItem : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     public void OnPointerDown(PointerEventData eventData)
     {
         SoundEffects.PlaySound(1);
-        if (isBeingHeld == true)
+        if(Shovel.toggledOn == true)
+        {
+            return;
+        }
+        else if (CarryingPlant.IsCarrying == true && go != null)
         {
             Destroy(go);
-            isBeingHeld = false;
+            CarryingPlant.IsCarrying = false;
+        }
+        else if(CarryingPlant.IsCarrying == true && go == null)
+        {
+            SoundEffects.PlaySound(0);
         }
         else
         {
@@ -45,10 +52,10 @@ public class spawnItem : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 	void Update(){
         if (UnityEngine.Input.GetMouseButton(0))
         {
-            if(isBeingHeld && clickFlag == false)
+            if(CarryingPlant.IsCarrying && clickFlag == false && go != null)
             LeaveIt();
         }
-	    if(isBeingHeld == true){
+	    if(CarryingPlant.IsCarrying == true && go != null){
             Vector3 mousePos = MousePos();
             go.transform.localPosition = new Vector3(mousePos.x, mousePos.y, 0);
 		}
@@ -57,14 +64,14 @@ public class spawnItem : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     private void TakeIt()
     {
         Vector3 mousePos = MousePos();
-        if (isBeingHeld == false && Collecting.money >= price)
+        if (CarryingPlant.IsCarrying == false && Collecting.money >= price)
         {
             //instantizacija objekta
             go = (GameObject)Instantiate(prefab, new Vector3(mousePos.x, mousePos.y, 0), Quaternion.identity);
             Animation goAnimation = go.GetComponent<Animation>();
             if (goAnimation)
                 goAnimation.enabled = false;
-            isBeingHeld = true;
+            CarryingPlant.IsCarrying = true;
         }
         else
         {
@@ -91,13 +98,14 @@ public class spawnItem : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
             {
                 Vector3 mousePos = MousePos();
                 Collecting.money -= price;
-                isBeingHeld = false;
+                CarryingPlant.IsCarrying = false;
                 //convert iz screena u veličinu ekrana
                 go.transform.localPosition = new Vector3(Mathf.Round(mousePos.x), Mathf.Round(mousePos.y), 0);
                 Collider2D col = go.GetComponent<CircleCollider2D>();
                 col.isTrigger = false;
                 go.SendMessage("SetStart", true);
                 SoundEffects.PlaySound(Random.Range(2, 4));
+                go = null;
             }
         }
     }
