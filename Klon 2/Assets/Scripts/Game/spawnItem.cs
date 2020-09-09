@@ -9,8 +9,12 @@ public class spawnItem : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     public int price;
 	public GameObject prefab;
     public AudioScript SoundEffects;
+    public Image DisabledOverlay;
+    public float plantCooldown;
+    private float counter;
 	private GameObject go;
     private bool clickFlag;
+    private bool available = true;
 
     //uzimanje
     public void OnPointerDown(PointerEventData eventData)
@@ -64,7 +68,7 @@ public class spawnItem : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     private void TakeIt()
     {
         Vector3 mousePos = MousePos();
-        if (CarryingPlant.IsCarrying == false && Collecting.money >= price)
+        if (CarryingPlant.IsCarrying == false && Collecting.money >= price && available == true)
         {
             //instantizacija objekta
             go = (GameObject)Instantiate(prefab, new Vector3(mousePos.x, mousePos.y, 0), Quaternion.identity);
@@ -106,7 +110,27 @@ public class spawnItem : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
                 go.SendMessage("SetStart", true);
                 SoundEffects.PlaySound(Random.Range(2, 4));
                 go = null;
+                DisabledOverlay.transform.localScale = new Vector2(1f, 1f);
+                counter = plantCooldown;
+                available = false;
+                InvokeRepeating("startUnlocking", 0, 0.01f);
             }
+        }
+    }
+
+    void startUnlocking()
+    {
+        if(counter > 0)
+        {
+            DisabledOverlay.transform.localScale = new Vector2(1f, counter/plantCooldown);
+            counter -= 0.01f;
+        }
+        else
+        {
+            DisabledOverlay.transform.localScale = new Vector3(1f, 0f);
+            counter = plantCooldown;
+            CancelInvoke();
+            available = true;
         }
     }
 }

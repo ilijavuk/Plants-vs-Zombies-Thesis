@@ -6,6 +6,7 @@ public class Chomper : MonoBehaviour
 {
     public int Damage;
     public int Cooldown;
+    public BoxCollider2D TakenGroundCollider;
     private Animator Anim;
     private GameObject BitingTarget = null;
     private BoxCollider2D BoxCollider;
@@ -67,6 +68,7 @@ public class Chomper : MonoBehaviour
     {
         gameObject.GetComponent<BoxCollider2D>().enabled = true;
         gameObject.GetComponent<Animator>().Play("Chomper_Idle");
+        TakenGroundCollider.offset = new Vector2(0f, 0f);
         Vector3 oldPosition = transform.position;
         transform.position = new Vector3(oldPosition.x - 0.5f, oldPosition.y - 0.5f, 0);
     }

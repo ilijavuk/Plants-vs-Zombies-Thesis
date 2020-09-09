@@ -57,7 +57,7 @@ public class Pucpuc : MonoBehaviour
                 boxCollider.offset = new Vector2(1.5f, 0f);
                 boxCollider.size = new Vector2(2f, 0.95f); break;
             case 3:
-                boxCollider.offset = new Vector2(1f, 0.95f);
+                boxCollider.offset = new Vector2(1f, 0f);
                 boxCollider.size = new Vector2(1f, 0.95f); break;
             case 4:
                 boxCollider.offset = new Vector2(0f, 0f);
