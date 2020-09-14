@@ -5,6 +5,10 @@ using UnityEngine;
 public class SunSpawn : MonoBehaviour
 {
     public GameObject Prefab;
+    public void StopSpawning()
+    {
+        CancelInvoke();
+    }
 
     void Start() {
         InvokeRepeating("Spawn", 1, 10);

@@ -5223,9 +5223,9 @@ MonoBehaviour:
   - {fileID: 5940629238314506436, guid: 84130c1be96c9e843a25ddcf6a0823ae, type: 3}
   - {fileID: 2389658093259288206, guid: f0989d397e604844995b339826037350, type: 3}
   - {fileID: 2118996329394402667, guid: 55df22355405d6545b3502946d8fa6b4, type: 3}
+  - {fileID: 4400844033613613884, guid: ba0a3cd20a30ba74a99f94aca9f88fbf, type: 3}
   - {fileID: 1936829437013191446, guid: aefa0163d9834a04a86f631d48661328, type: 3}
-  - {fileID: 5940629238314506436, guid: 84130c1be96c9e843a25ddcf6a0823ae, type: 3}
-  delay: 15
+  delay: 25
   ZombiesAreComing: {fileID: 1235675441}
 --- !u!4 &1235675440
 Transform:

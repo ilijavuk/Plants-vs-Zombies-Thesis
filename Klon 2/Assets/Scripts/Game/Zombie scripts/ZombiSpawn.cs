@@ -39,5 +39,18 @@ public class ZombiSpawn : MonoBehaviour
             currentIndex++;
             Invoke("Spawn", UnityEngine.Random.Range(5f, 15f));
         }
+        if(currentIndex > 30)
+        {
+            Invoke("SpawnWave", 10f);
+        }
+    }
+
+    void SpawnWave()
+    {
+        for(int i = currentIndex; i < numberOfSpawns; i++)
+        {
+            Instantiate(prefab[UnityEngine.Random.Range(0, typeOfSpawns)], new Vector3(UnityEngine.Random.Range(8, 10), (float)Math.Round(UnityEngine.Random.Range((float)start, (float)end)), 0), Quaternion.identity);
+            currentIndex++;
+        }
     }
 }

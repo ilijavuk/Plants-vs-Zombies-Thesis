@@ -13,7 +13,7 @@ public class SunflowerSpawningSuns : MonoBehaviour
     }
     void SetStart(bool value)
     {
-        InvokeRepeating("Spawn", 4, 10);
+        InvokeRepeating("Spawn", 10, 20);
         gameObject.GetComponent<Animator>().SetBool("IsSpawned", true);
     }
 }

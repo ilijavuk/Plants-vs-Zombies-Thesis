@@ -141,6 +141,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   popParticleAnim: {fileID: -775035757069815592}
   collectingSound: {fileID: 4442692647294691918}
+  Value: 25
 --- !u!198 &-775035757069815592
 ParticleSystem:
   m_ObjectHideFlags: 0

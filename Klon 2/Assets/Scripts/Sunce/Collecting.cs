@@ -5,9 +5,10 @@ using UnityEngine.UI;
 
 public class Collecting : MonoBehaviour
 {
-	public static int money = 5000;
+	public static int money = 50;
     public ParticleSystem popParticleAnim;
     public AudioSource collectingSound;
+    public int Value;
     private bool collected = false;
     private Vector2 targetPosition;
 
@@ -21,7 +22,7 @@ public class Collecting : MonoBehaviour
 
             if (Vector3.Distance(transform.position, targetPosition) < 2f)
             {
-                money += 25;
+                money += Value;
                 Destroy(gameObject);
             }
         }

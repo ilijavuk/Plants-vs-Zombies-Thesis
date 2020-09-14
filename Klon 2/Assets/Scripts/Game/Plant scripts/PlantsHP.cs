@@ -5,16 +5,6 @@ using UnityEngine;
 public class PlantsHP : MonoBehaviour
 {
     public int HP;
-    private Shovel shovel;
-
-    private void Start()
-    {
-        //GameObject shovelButton = GameObject.Find("Button Shovel");
-        //if (shovelButton)
-        //{
-        //    shovel = shovelButton.GetComponent<Shovel>();
-        //}
-    }
 
     public void SmanjiHP(int dmg)
     {
@@ -32,21 +22,18 @@ public class PlantsHP : MonoBehaviour
         Destroy(gameObject);
     }
 
-    private void OnMouseEnter()
+    public void WhenMouseEnter()
     {
-        if(Shovel.toggledOn)
-            gameObject.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, .5f);
+        gameObject.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, .5f);
     }
-    private void OnMouseExit()
+    public void WhenMouseExit()
     {
-        if (Shovel.toggledOn)
-            gameObject.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
+        gameObject.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
     }
 
-    private void OnMouseDown()
+    public void WhenMouseDown()
     {
-        if (Shovel.toggledOn)
-            Destroy(gameObject);
-
+        Destroy(gameObject);
     }
+
 }

@@ -13,6 +13,7 @@ ScriptsOnlyBuild:
     - OptionsMenu
     - PlantsHP
     - PlayMenu
+    - Polevaulter
     - PotatoMine
     - ProjectileVeloc
     - Protected_Zombie
@@ -52,8 +53,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -182,6 +185,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 15196}
     - Class: 114
       Script: {instanceID: 15348}
+    - Class: 114
+      Script: {instanceID: 15408}
     - Class: 114
       Script: {instanceID: 15510}
     - Class: 114
@@ -967,7 +972,7 @@ ScriptsOnlyBuild:
     className: TMP_TextSelector_A
   - hash:
       serializedVersion: 2
-      Hash: ac957072fcd7108d356b28df03d9e42f
+      Hash: c6c6d5522776a8468a8fa9b3ee09de70
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Chomper
@@ -979,7 +984,7 @@ ScriptsOnlyBuild:
     className: NetworkMigrationManager
   - hash:
       serializedVersion: 2
-      Hash: 10844496ed828e30967cc5cf808cc8ec
+      Hash: 7213dd8292e6b92bdf3058ed79404ef5
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Collecting
@@ -1171,7 +1176,7 @@ ScriptsOnlyBuild:
     className: TMP_StyleSheet
   - hash:
       serializedVersion: 2
-      Hash: df53bd20b87f922c729902655c665f6e
+      Hash: 0ac9b0a6dbb2c3785c7fea804ee55992
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: spawnItem

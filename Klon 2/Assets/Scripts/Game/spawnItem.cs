@@ -128,7 +128,7 @@ public class spawnItem : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         else
         {
             DisabledOverlay.transform.localScale = new Vector3(1f, 0f);
-            counter = plantCooldown;
+            counter = plantCooldown; 
             CancelInvoke();
             available = true;
         }
